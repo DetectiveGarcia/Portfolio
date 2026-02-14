@@ -3,12 +3,12 @@ import type { ReactNode } from "react";
 
 type SectionLayoutProps = {
     children: ReactNode
-    id: string;
+    sectionId: string;
 }
 
-const SectionLayout = ({ children, id }: SectionLayoutProps) => {
+const SectionLayout = ({ children, sectionId }: SectionLayoutProps) => {
   return (
-    <section id={id}>{children}</section>
+    <section id={sectionId}>{children}</section>
   )
 }
 
