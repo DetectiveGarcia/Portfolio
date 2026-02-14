@@ -1,8 +1,10 @@
-
+import SectionLayout from "./layouts/SectionLayout"
 
 const App = () => {
   return (
-    <div>App</div>
+    <SectionLayout id={"app-layout"}>
+      <div>App</div>
+    </SectionLayout>
   )
 }
 
