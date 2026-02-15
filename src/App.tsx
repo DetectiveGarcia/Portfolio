@@ -1,5 +1,5 @@
-import SectionLayout from "./layouts/SectionLayout";
-import NavBar from "./navbar/NavBar";
+import SectionLayout from "./components/layouts/SectionLayout";
+import NavBar from "./components/navbar/NavBar";
 
 const App = () => {
   return (
