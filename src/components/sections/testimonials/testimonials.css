@@ -1,0 +1,40 @@
+#testimonials {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#terminonials-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.testimonial {
+  width: 300px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 350px;
+  text-align: center;
+  background: linear-gradient(to right top, #131518, #2e0d0d);
+  border: 1px solid #ee4a4e;
+  border-radius: 7px;
+  padding: 30px;
+}
+
+
+#testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to right top, #10151d, #062350);
+  /*#0e1d35*/
+}
+.placeholder-user {
+  width: 100px;
+}
