@@ -1,0 +1,45 @@
+#about-me-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #1a1a1a, #0d0d0d 10%);
+}
+
+#about-me-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #1a1a1a, #0d0d0d 10%);
+  
+  p {
+      text-align: center;
+      width: 75%;
+    }
+}
+
+#CV {
+  border: 1px solid;
+  border-radius: 30px;
+  padding: 10px;
+  color: #1a1a1a;
+  background: #faebd7;
+  text-decoration: none;
+}
+
+#buttons {
+  /* position: absolute; */
+  display: flex;
+  gap: 5px;
+}
+
+#selfie {
+  height: 500px;
+  border-radius: 10px;
+  /* position: absolute; */
+  top: 25%;
+  scroll-snap-type: y mandatory;
+}
