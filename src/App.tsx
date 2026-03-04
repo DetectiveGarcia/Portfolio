@@ -4,6 +4,7 @@ import AboutMeSection from "./components/sections/about me/AboutMeSection";
 import Skills from "./components/sections/skills/Skills";
 import Projects from "./components/sections/projects/Projects";
 import Testimonials from "./components/sections/testimonials/Testimonials";
+import Contact from "./components/sections/contact me/Contact";
 
 const App = () => {
   return (
@@ -20,6 +21,9 @@ const App = () => {
       </SectionLayout>
       <SectionLayout sectionId={"testimonials"}>
         <Testimonials />
+      </SectionLayout>
+      <SectionLayout sectionId={"contact"}>
+        <Contact />
       </SectionLayout>
     </>
   );
