@@ -30,13 +30,13 @@ const NavBar = () => {
             <p className="hovered-text">Projects</p>
           </li>
           <li className="nav-link link-hovered">
-            <a href="#project">
+            <a href="#tertimonials">
               <FontAwesomeIcon icon={faCommentDots} />
             </a>
             <p className="hovered-text">Testimonials</p>
           </li>
           <li className="nav-link link-hovered">
-            <a href="#project">
+            <a href="#contact">
               <FontAwesomeIcon icon={faEnvelope} />
             </a>
             <p className="hovered-text">Contact</p>
