@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color-scheme: dark;
+  color: antiquewhite;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+section {
+  min-height: 100vh;
+}
+
+  h3 {
+    text-align: right;
+    font-size: clamp(3.5rem, 12vw + 1rem, 15rem);
+    font-weight: 100;
+  }
