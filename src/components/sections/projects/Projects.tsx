@@ -1,8 +1,8 @@
 import "./projects.css"
-import ScreeShot1 from "../../../../assets/images/Screenshot 2025-12-10 195753.png"
-import ScreeShot2 from "../../../../assets/images/Screenshot 2025-12-10 200110.png"
-import ScreeShot3 from "../../../../assets/images/Screenshot 2025-12-10 200323.png"
-import ScreeShot4 from "../../../../assets/images/Screenshot 2025-12-10 203115.png"
+import ScreeShot1 from "../../../../public/images/Screenshot 2025-12-10 195753.png"
+import ScreeShot2 from "../../../../public/images/Screenshot 2025-12-10 200110.png"
+import ScreeShot3 from "../../../../public/images/Screenshot 2025-12-10 200323.png"
+import ScreeShot4 from "../../../../public/images/Screenshot 2025-12-10 203115.png"
 
 const Projects = () => {
 
