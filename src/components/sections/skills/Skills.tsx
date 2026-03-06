@@ -51,17 +51,17 @@ const Skills = () => {
     scene.add(carouselGroup);
 
     const modelPaths = [
-      "../../../../assets/models/HTML.glb",
-      "../../../../assets/models/CSS.glb",
-      "../../../../assets/models/Github.glb",
-      "../../../../assets/models/Javascript.glb",
-      "../../../../assets/models/Node.glb",
-      "../../../../assets/models/Typescript.glb",
-      "../../../../assets/models/React.glb",
-      "../../../../assets/models/NextJS.glb",
-      "../../../../assets/models/Docker.glb",
-      "../../../../assets/models/Threejs.glb",
-      "../../../../assets/models/C-sharp.glb",
+      "/models/HTML.glb",
+      "/models/CSS.glb",
+      "/models/Github.glb",
+      "/models/Javascript.glb",
+      "/models/Node.glb",
+      "/models/Typescript.glb",
+      "/models/React.glb",
+      "/models/NextJS.glb",
+      "/models/Docker.glb",
+      "/models/Threejs.glb",
+      "/models/C-sharp.glb",
     ];
 
     const controls = new OrbitControls(camera, renderer.domElement);
