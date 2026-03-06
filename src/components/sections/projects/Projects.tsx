@@ -70,10 +70,6 @@ const Projects = () => {
                 >Demo<i className="fa-solid fa-square-up-right"></i></a>
             </div>
           </li>
-
-
-
-          
         </ul>
     </>
   );

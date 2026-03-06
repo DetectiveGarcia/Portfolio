@@ -24,3 +24,9 @@ body {
 section {
   min-height: 100vh;
 }
+
+  h3 {
+    text-align: right;
+    font-size: clamp(3.5rem, 12vw + 1rem, 15rem);
+    font-weight: 100;
+  }
