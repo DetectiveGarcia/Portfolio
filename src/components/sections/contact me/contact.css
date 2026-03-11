@@ -5,31 +5,105 @@
   background: linear-gradient(to right top, #1a1a1a, #271f1f);
 }
 
-form {
+#form-container {
+  width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
   max-width: 450px;
-  border: 1px solid;
-  padding: 20px;
+  padding: 30px 20px;
+  border: 1px solid #3b3b3b;
   border-radius: 10px;
-  /* background-color: aliceblue; */
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  background: #1f1f1f;
 }
 
-label {
-  text-align: left;
-  margin-top: 50px;
+.field {
+  position: relative;
 }
 
+.field input,
+.field textarea {
+  width: 100%;
+  padding: 1.2rem 1rem 0.9rem 1rem;
+  font-size: 1rem;
+  color: white;
+  background: transparent;
+  border: 1.5px solid #666;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
+}
+
+.field textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.field label {
+  position: absolute;
+  left: 0.9rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #b8b8b8;
+  font-size: 1rem;
+  pointer-events: none;
+  transition:
+    top 0.3s ease,
+    transform 0.3s ease,
+    font-size 0.3s ease,
+    color 0.3s ease;
+  background: #1f1f1f;
+  padding: 0 0.35rem;
+}
+
+/* textarea label starts a bit higher because textarea is taller */
+.field textarea + label {
+  top: 1.2rem;
+  transform: translateY(0);
+}
+
+/* focused border */
+.field input:focus,
+.field textarea:focus {
+  border-color: #055eee;
+  box-shadow: 0 0 0 3px rgba(5, 94, 238, 0.12);
+}
+
+/* floating label on focus */
+.field input:focus + label,
+.field input:not(:placeholder-shown) + label,
+.field textarea:focus + label,
+.field textarea:not(:placeholder-shown) + label {
+  top: 0;
+  transform: translateY(-50%);
+  font-size: 0.8rem;
+  color: #6ea8ff;
+}
+
+/* submit button */
 input[type="submit"] {
-  margin-top: 30px;
-  padding: 5px;
+  margin-top: 10px;
+  padding: 0.7rem 1rem;
   border-radius: 5px;
   align-self: center;
   background: #055eee;
   width: 10em;
   transition: 0.5s;
+  border: none;
+  color: white;
+  cursor: pointer;
 }
 
 input[type="submit"]:hover {

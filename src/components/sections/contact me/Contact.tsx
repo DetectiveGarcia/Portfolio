@@ -1,58 +1,65 @@
-import "./contact.css"
+import "./contact.css";
 
 const Contact = () => {
   return (
     <>
-        <div id="form-container">
-          <h3>Contact</h3>
-          {/* <!-- action="https://formsubmit.co/9cdaed5c231f8ae874e106206942674d" -->
-          <!-- method="POST" --> */}
-          <form
-            id="contact-form"
-            action="https://formsubmit.co/9cdaed5c231f8ae874e106206942674d"
-            method="POST"
-          >
-            <label htmlFor="email">Email</label>
-            <input 
-              type="email" 
-              name="email" 
-              id="email"
-              />
+      <div id="form-container">
+        <h3>Contact</h3>
 
-
-            <label htmlFor="first-name">Förnamn</label>
-            <input 
-              type="text" 
-              name="first-name" 
-              id="first-name" 
-              />
-
-
-            <label htmlFor="last-name">Efternamn</label>
-            <input 
-              type="text" 
-              name="last-name" 
-              id="last-name"
-              />
-
-
-            <label htmlFor="message">Meddelande</label>
-            <textarea 
-              name="message" 
-              id="message" 
-              rows={10}
-              ></textarea>
-
-
+        <form
+          id="contact-form"
+          action="https://formsubmit.co/9cdaed5c231f8ae874e106206942674d"
+          method="POST"
+        >
+          <div className="field">
             <input
-              type="submit"
-              value="Skicka"
-              id="send"
+              type="email"
+              name="email"
+              id="email"
+              placeholder=" "
+              required
             />
-          </form>
-        </div>
-    </>
-  )
-}
+            <label htmlFor="email">Email</label>
+          </div>
 
-export default Contact
+          <div className="field">
+            <input
+              type="text"
+              name="first-name"
+              id="first-name"
+              placeholder=" "
+              required
+            />
+            <label htmlFor="first-name">Förnamn</label>
+          </div>
+
+          <div className="field">
+            <input
+              type="text"
+              name="last-name"
+              id="last-name"
+              placeholder=" "
+              required
+            />
+            <label htmlFor="last-name">Efternamn</label>
+          </div>
+
+          <div className="field">
+            <textarea
+              name="message"
+              id="message"
+              rows={10}
+              placeholder=" "
+              required
+            ></textarea>
+            <label htmlFor="message">Meddelande</label>
+          </div>
+
+          <input type="submit" value="Skicka" id="send" />
+        </form>
+      </div>
+    </>
+  );
+};
+
+export default Contact;
