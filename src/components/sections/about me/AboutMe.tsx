@@ -1,7 +1,8 @@
 import "./aboute-me.css";
-import CV from "../../../../public/images/Kopia av CV - Miguel Garcia Webb (1).pdf"
-import selfie from "../../../../public/images/b07dc84f-4b9d-4a60-89ef-bd6bd8614ebe.jpeg"
-const AboutMeSection = () => {
+import CV from "../../../../images/Kopia av CV - Miguel Garcia Webb (1).pdf"
+import selfie from "../../../../images/b07dc84f-4b9d-4a60-89ef-bd6bd8614ebe.jpeg"
+
+const AboutMe = () => {
   return (
     <div id="about-me-container">
           <h1>Hej, jag heter Miguel</h1>
@@ -42,4 +43,4 @@ const AboutMeSection = () => {
   )
 }
 
-export default AboutMeSection
+export default AboutMe
