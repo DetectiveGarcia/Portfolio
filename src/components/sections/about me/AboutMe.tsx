@@ -1,5 +1,5 @@
 import "./aboute-me.css";
-import CV from "../../../../images/Kopia av CV - Miguel Garcia Webb (1).pdf"
+import CV from "../../../../images/CV - Miguel Garcia Dev.pdf"
 import selfie from "../../../../images/b07dc84f-4b9d-4a60-89ef-bd6bd8614ebe.jpeg"
 
 const AboutMe = () => {
