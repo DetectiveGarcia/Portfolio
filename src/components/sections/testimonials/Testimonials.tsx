@@ -1,5 +1,5 @@
 import "./testimonials.css"
-import placeHolderPic from "../../../../public/images/user-placeholder.png"
+import placeHolderPic from "../../../../images/user-placeholder.png"
 
 const Testimonials = () => {
   return (
