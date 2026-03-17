@@ -4,7 +4,8 @@ const Contact = () => {
   return (
     <>
       <div id="form-container">
-        <h3>Contact</h3>
+      {/* <h3>Contact</h3> */}
+      <h3>Kontakt</h3>
 
         <form
           id="contact-form"
