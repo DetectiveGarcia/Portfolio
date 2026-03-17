@@ -6,7 +6,7 @@ const Testimonials = () => {
     <>
         <h3>Testimonials</h3>
 
-        <ul id="terminonials-container">
+        <ul id="tesminonials-container">
           <li className="testimonial">
             <img
               className="placeholder-user"
