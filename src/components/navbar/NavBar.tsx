@@ -15,7 +15,8 @@ const NavBar = () => {
             <a href="#about-me">
               <FontAwesomeIcon icon={faUser} />
             </a>
-            <p className="hovered-text">About me</p>
+            {/* <p className="hovered-text">About me</p> */}
+            <p className="hovered-text">Om mig</p>
           </li>
           <li className="nav-link link-hovered">
             <a href="#skills">
@@ -27,19 +28,22 @@ const NavBar = () => {
             <a href="#project">
               <FontAwesomeIcon icon={faDiagramProject} />
             </a>
-            <p className="hovered-text">Projects</p>
+            {/* <p className="hovered-text">Projects</p> */}
+            <p className="hovered-text">Projekts</p>
           </li>
           <li className="nav-link link-hovered">
             <a href="#testimonials">
               <FontAwesomeIcon icon={faCommentDots} />
             </a>
-            <p className="hovered-text">Testimonials</p>
+            {/* <p className="hovered-text">Testimonials</p> */}
+            <p className="hovered-text">Referenser</p>
           </li>
           <li className="nav-link link-hovered">
             <a href="#contact">
               <FontAwesomeIcon icon={faEnvelope} />
             </a>
-            <p className="hovered-text">Contact</p>
+            {/* <p className="hovered-text">Contact</p> */}
+            <p className="hovered-text">Kontakt</p>
           </li>
         </ul>
       </nav>

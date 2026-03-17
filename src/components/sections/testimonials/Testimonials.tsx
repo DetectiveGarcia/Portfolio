@@ -4,8 +4,8 @@ import placeHolderPic from "../../../../images/user-placeholder.png"
 const Testimonials = () => {
   return (
     <>
-        <h3>Testimonials</h3>
-
+        {/* <h3>Testimonials</h3> */}
+        <h3>Referenser</h3>
         <ul id="tesminonials-container">
           <li className="testimonial">
             <img
