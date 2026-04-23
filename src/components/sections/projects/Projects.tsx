@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <>
         {/* <h3>Projects</h3> */}
-        <h3>Projekts</h3>
+        <h3>Projekt</h3>
         <ul id="projects-container">
           <li className="project">
             <img
